@@ -4,12 +4,43 @@
     color: black;
 }
 
+a{
+    text-decoration: none;
+    cursor: inherit;
+    color: inherit;
+}
+
 .pag{
     list-style: none;
-    display: flex;
-    height: 28px;
-    width: 28px;
-    margin-left: 40px;
-    margin-right: 40px;
+}
+
+.pag li{
+    display: inline-block;
+    height: 32px;
+    width: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 32px;
     padding: 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.pag_ant:hover,
+.num:hover,
+.ult_pag:hover {
+    border-color:rgb(238, 238, 238);
+}
+
+.pag_ant:active,
+.num:active,
+.ult_pag:active {
+    background-color: rgba(0, 131, 202, 0.467);
+    color: rgb(255, 255, 255);
+}
+.pag_sel{
+    background-color: #0086FF;
+    color:blanchedalmond;
 }
