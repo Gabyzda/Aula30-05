@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.pag{
+    list-style: none;
+    display: flex;
+    height: 28px;
+    width: 28px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
